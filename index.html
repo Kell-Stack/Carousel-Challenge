@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Carousel Challenge Part 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="col-lg-12">
+
+      <div class="slideshow-container-fluid">
+          <div class="slides">
+          <div class="which-slide">1 of 5 </div>
+          <img src=/stock_images/arrow.jpg style="width:100%">
+          <div class="desc"> Arrow </div>
+      </div>
+
+      <!-- <div class="slideshow-container"> -->
+          <div class="slides">
+          <div class="which-slide">2 of 5</div>
+          <img src=/stock_images/big_door.jpg style="width:100%">
+          <div class="desc"> Big Door </div>
+      </div>
+
+      <!-- <div class="slideshow-container"> -->
+        <div class="slides">
+        <div class="which-slide">3 of 5</div>
+        <img src=/stock_images/bikes.jpg style="width:100%">
+        <div class="desc"> Bikes </div>
+      </div>
+
+      <!-- <div class="slideshow-container"> -->
+      <div class="slides">
+        <div class="which-slide">4 of 5</div>
+        <img src=/stock_images/bridge.jpg style="width:100%">
+        <div class="desc"> Bridge </div>
+      </div>
+
+      <!-- <div class="slideshow-container"> -->
+      <div class="slides">
+        <div class="which-slide">5 of 5</div>
+        <img src=/stock_images/building.jpg style="width:100%">
+        <div class="desc"> Building </div>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#128072;&#127998;</a>
+    <a class="next" onclick="plusSlides(1)">&#128073;&#127998;</a>
+  </div>
+
+  <br>
+
+  <div style="text-align:center">
+    <span class="indicator" onclick="currentSlide(1)">&#128313;</span>
+    <span class="indicator" onclick="currentSlide(2)">&#128313;</span>
+    <span class="indicator" onclick="currentSlide(3)">&#128313;</span>
+    <span class="indicator" onclick="currentSlide(4)">&#128313;</span>
+    <span class="indicator" onclick="currentSlide(5)">&#128313;</span>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
