@@ -1,0 +1,1 @@
+This is the first part of the Front End Take-home Challenge. I used Bootstrap as my framework. The slideshow works but however there is an extra slide w/o a picture before it loops back to the first. I made a slideshow awhile back for our recipe page project so tried to mimic that thought process but wasn't as succesful.
